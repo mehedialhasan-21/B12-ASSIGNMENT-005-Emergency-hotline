@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B12-ASSIGNMENT-005 Emergency-hotline</title>
-     <link
+<html lang="bn-BD" class="scroll-smooth">
+  <head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Google Fonts: Loaded via tailwind.css -->
+
+    <!-- CDNs -->
+    <!-- Font Awesome CDN -->
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
       integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- CDNs -->
     <!-- Tailwind CSS Play CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- daisyUI CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
 
     <!-- Stylesheets -->
     <!-- Tailwind CSS Styles -->
@@ -27,100 +26,141 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css" />
 
-</head>
-<body>
+    <!-- Title -->
+    <title>জরুরি সেবা ডিরেক্টরি | বাংলাদেশ</title>
+  </head>
+  <body>
+    
+    <!-- Header Area -->
+   
     <header
-      class="container mx-auto flex justify-between items-center max-w-[97%] sm:max-w-[95%] md:max-w-[93%] lg:max-w-[90%] xl:max-w-[85%] 2xl:max-w-[80%] my-2 sm:my-3 md:my-4 lg:my-5 xl:my-6 2xl:my-7"
+      class="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-md transition-all duration-300"
     >
-      <!-- Logo Section -->
+      <!-- Header container -->
       <div
-        class="flex justify-between items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5"
+        class="container mx-auto flex justify-between items-center max-w-[97%] sm:max-w-[95%] md:max-w-[93%] lg:max-w-[90%] xl:max-w-[85%] 2xl:max-w-[80%] py-2 sm:py-3 md:py-4 lg:py-5 xl:py-6 2xl:py-7"
       >
-        <img
-          class="max-w-[26px] sm:max-w-[30px] md:max-w-[34px] lg:max-w-[38px] xl:max-w-[42px] 2xl:max-w-[56px]"
-          src="assets/logos/emergency-hotline-logo.png"
-          alt="Emergency Hotline Logo"
-        />
-        <h1
-          class="text-[#006747] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-extrabold leading-none"
-        >
-          Emergency <br />
-          Service
-        </h1>
-      </div>
-      <!-- User Activity Info Section -->
-      <div
-        class="flex justify-between items-center gap-[8px] sm:gap-[10px] md:gap-[12px] lg:gap-[14px] xl:gap-[16px] 2xl:gap-[18px]"
-      >
-        <!-- Heart Count -->
+        <!-- Logo Section -->
         <div
-          class="flex justify-center items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5 bg-[#41FF6B]/10 px-[10px] sm:px-[14px] md:px-[16px] lg:px-[18px] xl:px-5 2xl:px-6 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-2 rounded-full"
+          class="flex justify-between items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5"
         >
-          <span class="text-[12px] sm:text-sm md:text-base font-extrabold"
-            >0</span
-          >
           <img
-            class="max-w-[18px] sm:max-w-[20px] md:max-w-[22px] lg:max-w-[24px] xl:max-w-[28px] 2xl:max-w-[30px]"
-            src="assets/icons/heart.png"
-            alt="Heart Icon"
+            class="max-w-[26px] sm:max-w-[30px] md:max-w-[34px] lg:max-w-[38px] xl:max-w-[42px] 2xl:max-w-[56px]"
+            src="assets/logos/emergency-hotline-logo.png"
+            alt="Emergency Hotline Logo"
           />
-        </div>
-        <!-- Coin Count -->
-        <div
-          class="flex justify-center items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5 bg-[#41FF6B]/10 px-[10px] sm:px-[14px] md:px-[16px] lg:px-[18px] xl:px-5 2xl:px-6 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-2 rounded-full"
-        >
-          <span class="text-[12px] sm:text-sm md:text-base font-extrabold"
-            >23</span
+          <h1
+            class="text-[#006747] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-extrabold leading-none"
           >
-          <img
-            class="max-w-[18px] sm:max-w-[20px] md:max-w-[22px] lg:max-w-[24px] xl:max-w-[28px] 2xl:max-w-[30px]"
-            src="assets/icons/coin.png"
-            alt="Coin Icon"
-          />
+            Emergency <br />
+            Service
+          </h1>
         </div>
-        <!-- Copy Count -->
+        <!-- User Activity Info Section -->
         <div
-          class="flex justify-center items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5 bg-[#00A63E] text-white px-[10px] sm:px-[14px] md:px-[16px] lg:px-[18px] xl:px-5 2xl:px-6 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-2 rounded-full"
+          class="flex justify-between items-center gap-[8px] sm:gap-[10px] md:gap-[12px] lg:gap-[14px] xl:gap-[16px] 2xl:gap-[18px]"
         >
-          <span class="text-[12px] sm:text-sm lg:text-base font-medium">0</span>
-          <span class="text-[12px] sm:text-sm lg:text-base">Copy</span>
+          <!-- Heart -->
+          <div
+            class="flex justify-center items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5 bg-[#41FF6B]/10 px-[10px] sm:px-[14px] md:px-[16px] lg:px-[18px] xl:px-5 2xl:px-6 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-2 rounded-full"
+          >
+            <span
+              class="text-[12px] sm:text-sm md:text-base font-extrabold"
+              id="header-heart-num"
+              >0</span
+            >
+            <img
+              class="max-w-[18px] sm:max-w-[20px] md:max-w-[22px] lg:max-w-[24px] xl:max-w-[28px] 2xl:max-w-[30px]"
+              id="header-heart"
+              src="assets/icons/heart.png"
+              alt="Heart Icon"
+            />
+          </div>
+          <!-- Coin -->
+          <div
+            class="flex justify-center items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5 bg-[#41FF6B]/10 px-[10px] sm:px-[14px] md:px-[16px] lg:px-[18px] xl:px-5 2xl:px-6 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-2 rounded-full"
+          >
+            <span
+              class="text-[12px] sm:text-sm md:text-base font-extrabold"
+              id="header-coin-num"
+              >100</span
+            >
+            <img
+              class="max-w-[18px] sm:max-w-[20px] md:max-w-[22px] lg:max-w-[24px] xl:max-w-[28px] 2xl:max-w-[30px]"
+              id="header-coin"
+              src="assets/icons/coin.png"
+              alt="Coin Icon"
+            />
+          </div>
+          <!-- Copy -->
+          <div
+            class="flex justify-center items-center gap-1 sm:gap-1.5 lg:gap-2 2xl:gap-2.5 bg-[#00A63E] text-white px-[10px] sm:px-[14px] md:px-[16px] lg:px-[18px] xl:px-5 2xl:px-6 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-2 rounded-full"
+          >
+            <span
+              class="text-[12px] sm:text-sm lg:text-base font-medium"
+              id="header-copy-num"
+              >0</span
+            >
+            <span class="text-[12px] sm:text-sm lg:text-base">Copy</span>
+          </div>
         </div>
       </div>
     </header>
 
+    
     <!-- Main Area -->
- 
+  
     <main>
+     
       <!-- Hero Section -->
+    
       <section
         class="text-white bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] py-2 sm:py-3 md:py-4 lg:py-5 xl:py-6 2xl:py-7"
       >
         <div
           class="container mx-auto max-w-[97%] sm:max-w-[95%] md:max-w-[93%] lg:max-w-[90%] xl:max-w-[85%] 2xl:max-w-[80%] flex flex-col justify-between items-center gap-1.5 sm:gap-2 lg:gap-2.5 2xl:gap-3"
         >
+          <!-- Hero Image -->
           <img
-           class="max-w-[38px] sm:max-w-[48px] md:max-w-[58px] lg:max-w-[68px] xl:max-w-[78px] 2xl:max-w-[88px]"
+            class="max-w-[38px] sm:max-w-[48px] md:max-w-[58px] lg:max-w-[68px] xl:max-w-[78px] 2xl:max-w-[88px]"
             src="assets/logos/emergency-hotline-logo-dark.png"
             alt="Emergency Hotline Dark Logo"
           />
+          <!-- Hero Heading -->
           <h1
             class="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-extrabold whitespace-nowrap"
           >
             জরুরি সেবা ডিরেক্টরি
           </h1>
+          <!-- Hero content -->
           <p
             class="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] text-center font-medium"
           >
             Government Emergency Services at Your Fingertip - A Project by
             Government of the People's Republic of Bangladesh.
           </p>
+          <!-- Hero Moving Headline -->
+          <div
+            class="w-[90%] overflow-hidden bg-transparent text-[yellow] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[16px] text-center py-2"
+          >
+            <div
+              class="whitespace-nowrap inline-block animate-[marquee_20s_linear_infinite]"
+            >
+              🚨 দুর্ঘটনা, অসুস্থতা বা যেকোনো হঠাৎ প্রয়োজন - সময় নষ্ট নয়, আমরা
+              সবসময় প্রস্তুত &nbsp; | &nbsp; 📞 এক কলেই পৌঁছে যাবো আপনার দরজায়
+              দ্রুততম সেবাসহ &nbsp; | &nbsp; 🤝 আমাদের অঙ্গীকার: ভরসা, দ্রুত
+              রেসপন্স, আর নিরবচ্ছিন্ন সহায়তা ।
+            </div>
+          </div>
         </div>
       </section>
+      
       <!-- Body Section -->
-        <section
+    
+      <section
         class="bg-[#F5FFF6] py-2 sm:py-3 md:py-4 lg:py-5 xl:py-6 2xl:py-7"
       >
-        <!--  gap-1 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6 -->
+        <!-- Body Container -->
         <div
           class="container mx-auto max-w-[97%] sm:max-w-[95%] md:max-w-[93%] lg:max-w-[90%] xl:max-w-[85%] 2xl:max-w-[80%] grid grid-cols-1 sm:grid-cols-9 lg:grid-cols-12 gap-1 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6"
         >
@@ -137,13 +177,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/emergency-siren.png"
                     alt="Emergency Siren Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -156,14 +196,14 @@
                     জাতীয় জরুরি সেবা
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
                     National Emergency
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
                     999
                   </address>
@@ -176,12 +216,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -198,13 +238,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/police.png"
                     alt="Police Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -214,17 +254,17 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  পুলিশ
+                    পুলিশ
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Police
+                    Police
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
                     999
                   </address>
@@ -237,12 +277,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -259,13 +299,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/fire-service.png"
                     alt="Fire Service Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -275,17 +315,17 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  ফায়ার সার্ভিস
+                    ফায়ার সার্ভিস
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Fire Service
+                    Fire Service
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
                     999
                   </address>
@@ -298,12 +338,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -320,13 +360,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/ambulance.png"
                     alt="Ambulance Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -336,17 +376,17 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  অ্যাম্বুলেন্স
+                    অ্যাম্বুলেন্স
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Ambulance
+                    Ambulance
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
                     999
                   </address>
@@ -359,12 +399,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -381,13 +421,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/emergency-hotline-logo.png"
                     alt="Emergency Hotline Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -397,17 +437,17 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  নারী ও শিশু সহায়তা
+                    নারী ও শিশু সহায়তা
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Women & Child Helpline
+                    Women & Child Helpline
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
                     109
                   </address>
@@ -420,12 +460,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -442,13 +482,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/police.png"
                     alt="Police Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -458,17 +498,17 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  দুদক
+                    দুদক
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Anti-Corruption
+                    Anti-Corruption
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
                     106
                   </address>
@@ -481,12 +521,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -503,13 +543,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/emergency-siren.png"
                     alt="Emergency Siren Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -519,19 +559,19 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  বিদ্যুৎ বিভ্রাট
+                    বিদ্যুৎ বিভ্রাট
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Electricity Outage
+                    Electricity Outage
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  16216
+                    16216
                   </address>
                   <span
                     class="inline-block bg-[#f2f2f2] text-[#5C5C5C] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px] font-medium px-2 sm:px-2.5 md:px-3 lg:px-3.5 xl:px-4 2xl:px-4 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-[7px] rounded-full"
@@ -542,12 +582,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -564,13 +604,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/brac.png"
                     alt="Brac Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -580,19 +620,19 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  ব্র্যাক
+                    ব্র্যাক
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Brac
+                    Brac
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  16445
+                    16445
                   </address>
                   <span
                     class="inline-block bg-[#f2f2f2] text-[#5C5C5C] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px] font-medium px-2 sm:px-2.5 md:px-3 lg:px-3.5 xl:px-4 2xl:px-4 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-[7px] rounded-full"
@@ -603,12 +643,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -625,13 +665,13 @@
                   class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
                 >
                   <img
-                    class="max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+                    class="img max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
                     src="assets/logos/bangladesh-railway.png"
                     alt="Bangladesh-Railway Logo"
                   />
                 </div>
                 <i
-                  class="fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px]"
+                  class="card-heart fa-regular fa-heart text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] cursor-pointer"
                 ></i>
               </div>
               <div
@@ -641,19 +681,19 @@
                   <h2
                     class="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  বাংলাদেশ রেলওয়ে
+                    বাংলাদেশ রেলওয়ে
                   </h2>
                   <p
-                    class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+                    class="service-name text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
                   >
-                  Bangladesh Railway
+                    Bangladesh Railway
                   </p>
                 </div>
                 <div>
                   <address
-                    class="not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+                    class="service-num not-italic text-[18px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
                   >
-                  163
+                    163
                   </address>
                   <span
                     class="inline-block bg-[#f2f2f2] text-[#5C5C5C] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px] font-medium px-2 sm:px-2.5 md:px-3 lg:px-3.5 xl:px-4 2xl:px-4 py-[2px] sm:py-[3px] md:py-[4px] lg:py-[5px] xl:py-[6px] 2xl:py-[7px] rounded-full"
@@ -664,12 +704,12 @@
                   class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
                 >
                   <button
-                    class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="copy-btn text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-regular fa-copy mr-1"></i> Copy
                   </button>
                   <button
-                    class="text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+                    class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
                   >
                     <i class="fa-solid fa-phone mr-1"></i>
                     Call Now
@@ -679,10 +719,10 @@
             </article>
           </div>
           <!-- Call History Section -->
-          <aside
-            class="sm:col-span-3 bg-white p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 rounded-xl shadow-md"
-          >
-            <div class="flex justify-between items-center gap-2.5">
+          <aside class="sm:col-span-3 bg-white rounded-xl shadow-md">
+            <div
+              class="flex justify-between items-center gap-2.5 p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 shadow-sm"
+            >
               <h3
                 class="text-[16px] sm:text-[14px] md:text-[16px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-medium whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
               >
@@ -693,17 +733,203 @@
               >
                 <span
                   class="text-[16px] sm:text-sm lg:text-[15px] xl:text-[16px]"
+                  id="clear-btn"
                   >Clear</span
                 >
               </button>
             </div>
-            <section></section>
+
+            <section
+              class="flex flex-col justify-start items-start gap-2.5 p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 w-full"
+              id="call-history"
+            >
+              <div class="w-full mx-auto" id="no-history">
+                <p
+                  class="text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] font-medium text-[gray] text-center mt-20"
+                >
+                  No History Available
+                </p>
+              </div>
+              <!-- Append div Here -->
+              <!-- <div
+                class="flex justify-between items-center gap-2.5 w-full mx-auto bg-[#f2f2f2] font-medium text-base sm:text-sm md:text-sm 2xl:text-base px-4 py-2 rounded-2xl"
+              >
+                <div>
+                  <h3>Service Name</h3>
+                  <p>Hotline: 999</p>
+                </div>
+                <div>
+                  <p>Date:</p>
+                  <p>Time:</p>
+                </div>
+              </div> -->
+            </section>
           </aside>
         </div>
       </section>
     </main>
 
+    
+    <!-- Footer Area -->
+  
+    <footer
+      class="bg-[#D6F0DA] text-[blue] font-medium font-mono py-6 text-center text-sm"
+    >
+      <p>&COPY; 2025 জরুরি সেবা। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+    
+    <!-- Permitted Call Modal -->
+    <div
+      class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden justify-center items-center"
+      id="permitted-call-modal"
+    >
+      <div
+        class="bg-white rounded-2xl shadow-md w-[70%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[30%] p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 space-y-1 sm:space-y-2 md:space-y-3 lg:space-y-4 xl:space-y-5 2xl:space-y-6"
+      >
+        <!-- Service Info -->
+        <div class="flex justify-start items-center gap-4">
+          <div
+            class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
+          >
+            <img
+              src="assets/logos/24-hours-emergency-service.png"
+              alt="Service Logo"
+              class="modal-image max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+            />
+          </div>
+
+          <div>
+            <h2
+              class="modal-service-name text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+            >
+              Service Na
+            </h2>
+            <p
+              class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+            >
+              Help Line: <span class="modal-service-num">123</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Coin Info -->
+        <div class="bg-gray-50 p-4 rounded-xl">
+          <p class="text-gray-700">
+            💰 Your Balance:
+            <span class="user-coins font-bold text-green-600"></span>
+            Coins
+          </p>
+          <p class="text-gray-700">
+            📞 Call Cost:
+            <span class="font-bold text-red-600">20</span> Coins
+          </p>
+        </div>
+
+        <!-- Confirmation -->
+        <div
+          class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
+        >
+          <button
+            class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+            id="permitted-call-cancel-btn"
+          >
+            <i class="fa-solid fa-xmark"></i> Cancel
+          </button>
+          <button
+            class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+            id="call-now-btn"
+          >
+            <i class="fa-solid fa-phone mr-1"></i>
+            Call Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Not Permitted Call Modal -->
+    <div
+      class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden justify-center items-center"
+      id="not-permitted-call-modal"
+    >
+      <div
+        class="bg-white rounded-2xl shadow-md w-[70%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[30%] p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 space-y-1 sm:space-y-2 md:space-y-3 lg:space-y-4 xl:space-y-5 2xl:space-y-6"
+      >
+        <!-- Service Info -->
+        <div class="flex justify-start items-center gap-4">
+          <div
+            class="bg-[#FFE3E2] p-[6px] sm:p-[7px] md:p-[8px] lg:p-[9px] xl:p-[10px] 2xl:p-[11px] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] lg:rounded-[10px] xl:rounded-[12px] 2xl:rounded-[14px]"
+          >
+            <img
+              src="assets/logos/24-hours-emergency-service.png"
+              alt="Service Logo"
+              class="modal-image max-w-[16px] sm:max-w-[18px] md:max-w-[20px] lg:max-w-[22px] xl:max-w-[24px] 2xl:max-w-[26px]"
+            />
+          </div>
+
+          <div>
+            <h2
+              class="modal-service-name text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[1px] sm:mb-[2px] lg:mb-[3px] 2xl:mb-[4px]"
+            >
+              Service Name
+            </h2>
+            <p
+              class="text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-[gray] leading-tight"
+            >
+              Help Line: <span class="modal-service-num">12345</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Coin Info -->
+        <div class="bg-gray-50 p-4 rounded-xl">
+          <p class="text-gray-700">
+            💰 Your Balance:
+            <span class="user-coins font-bold text-green-600"></span>
+            Coins
+          </p>
+          <p class="text-gray-700">
+            📞 Call Cost:
+            <span class="font-bold text-red-600">20</span> Coins
+          </p>
+        </div>
+
+        <!-- Warning -->
+        <div class="bg-red-100 border border-red-300 rounded-xl p-3 mb-4">
+          <p class="text-red-700 text-sm font-medium">
+            ⚠️ You don't have enough coins to make this call. Please recharge
+            your coins to continue.
+          </p>
+        </div>
+
+        <!-- Confirmation -->
+        <div
+          class="flex lg:flex-col xl:flex-row justify-between items-center gap-2 mt-2.5"
+        >
+          <button
+            class="text-[#929292] border border-[#D4D6D5] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.2),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.2),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.3),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.6)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+            id="not-permitted-call-cancel-btn"
+          >
+            <i class="fa-solid fa-xmark"></i> Cancel
+          </button>
+          <button
+            class="call-btn text-white bg-[#00A63E] border border-[#00A63E] font-medium text-[16px] sm:text-sm md:text-base px-1 sm:px-1.5 md:px-1.5 lg:px-2.5 xl:px-2 2xl:px-4 py-1.5 rounded-lg w-full shadow-[inset_0.5px_0.5px_2px_rgba(0,0,0,0.25),inset_-0.5px_-0.5px_2px_rgba(255,255,255,0.5)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.25),0_-2px_6px_rgba(255,255,255,0.4)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.35),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.7)] transition-shadow duration-200 cursor-pointer whitespace-nowrap"
+            id="coin-recharge-btn"
+          >
+            <i class="fa-solid fa-bolt"></i>
+            Recharge Now
+          </button>
+        </div>
+      </div>
+    </div>   
+    <!-- Copy Modal -->
+
+    <div
+      class="fixed bg-[#D6F0DA] px-6 py-3 rounded-lg shadow-lg left-1/2 transform -translate-x-1/2 transition-all duration-500 ease-in-out z-50 opacity-0 -top-20"
+      id="copy-modal"
+    ></div>
+
     <!-- Main JS Script -->
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
